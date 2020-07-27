@@ -17,5 +17,5 @@ Componments required -
 11.Resistor 1k ohms
 
 
-#I got program for this project from a youtube video. I modified it a bit to work for so that it works without the push button functionality.
+#I got program for this project from a youtube video. I modified it a bit so that it works without the push button functionality.
 
