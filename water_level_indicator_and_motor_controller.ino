@@ -12,8 +12,6 @@ int percent;
 
 #include <LiquidCrystal.h>
 
-// initialize the library by associating any needed LCD interface pin
-// with the arduino pin number it is connected to
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 byte line[8] = {
@@ -143,10 +141,6 @@ void setup() {
   delay(1000);
 
 
-
-
-  // put your setup code here, to run once:
-
 }
 
 void loop() {
@@ -227,8 +221,7 @@ void loop() {
     { show();
       show2();
       delay(200);
-      // put your main code here, to run repeatedly:
-
+     
 
     }
     counter = 1;
